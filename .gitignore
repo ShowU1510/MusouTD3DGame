@@ -1,0 +1,17 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+x64/
+x86/
+Debug/
+Release/
+bin/
+obj/
+
+# Logs
+*.log
