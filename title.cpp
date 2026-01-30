@@ -116,40 +116,40 @@ void Title::TextUpdate()
 	{
 		AddGameObject<Polygon2D>(2)->Init(0.0f, 0.0f, SCREEN_WIDTH, SCREEN_HEIGHT, "asset\\texture\\titleBG.png");
 
-		AddGameObject<EnterText>(2)->Init(SCREEN_WIDTH - 400, SCREEN_HEIGHT - 70, 400, 70, true);
-
 		AddGameObject<Polygon2D>(2)->Init(100.0f, 0.0f, SCREEN_WIDTH - 200.0f, SCREEN_HEIGHT - 50, "asset\\texture\\kanban02.png");
 		AddGameObject<Polygon2D>(2)->Init((SCREEN_WIDTH / 2) - 250.0f, 25.0f, 500.0f, 150.0f, "asset\\texture\\kanban03.png");
-		AddGameObject<Polygon2D>(2)->Init((SCREEN_WIDTH / 2) - 200.0f, 50.0f, 400.0f, 125.0f, "asset\\texture\\sousasetumei.png");
-		AddGameObject<Polygon2D>(2)->Init(300.0f, 175.0f + 30.0f, 320.0f, 70.0f, "asset\\texture\\wasdki-.png");
-		AddGameObject<Polygon2D>(2)->Init(300.0f, 175.0f + 70.0f + 60.0f, 460.0f, 70.0f, "asset\\texture\\sayuuhoukouki-.png");
-		AddGameObject<Polygon2D>(2)->Init(300.0f, 175.0f + 140.0f + 90.0f, 390.0f, 70.0f, "asset\\texture\\supe-suki-.png");
+		AddGameObject<Polygon2D>(2)->Init((SCREEN_WIDTH / 2) - 200.0f, 50.0f, 400.0f, 125.0f, "asset\\texture\\text\\TitleText1-1.png");
+		AddGameObject<Polygon2D>(2)->Init(300.0f, 175.0f + 30.0f, 320.0f, 70.0f, "asset\\texture\\text\\TitleText1-2.png");
+		AddGameObject<Polygon2D>(2)->Init(300.0f, 175.0f + 70.0f + 60.0f, 460.0f, 70.0f, "asset\\texture\\text\\TitleText1-3.png");
+		AddGameObject<Polygon2D>(2)->Init(300.0f, 175.0f + 140.0f + 90.0f, 390.0f, 70.0f, "asset\\texture\\text\\TitleText1-4.png");
+
+		AddGameObject<EnterText>(2)->Init(SCREEN_WIDTH - 400, SCREEN_HEIGHT - 70, 400, 70, true);
 	}
 	else if (m_SceneCount == 2)
 	{
 		AddGameObject<Polygon2D>(2)->Init(0.0f, 0.0f, SCREEN_WIDTH, SCREEN_HEIGHT, "asset\\texture\\titleBG.png");
 
-		AddGameObject<EnterText>(2)->Init(SCREEN_WIDTH - 400, SCREEN_HEIGHT - 70, 400, 70, true);
-
 		AddGameObject<Polygon2D>(2)->Init(100.0f, 0.0f, SCREEN_WIDTH - 200.0f, SCREEN_HEIGHT - 50, "asset\\texture\\kanban02.png");
 		AddGameObject<Polygon2D>(2)->Init((SCREEN_WIDTH / 2) - 250.0f, 25.0f, 500.0f, 150.0f, "asset\\texture\\kanban03.png");
-		AddGameObject<Polygon2D>(2)->Init((SCREEN_WIDTH / 2) - 200.0f, 50.0f, 400.0f, 125.0f, "asset\\texture\\ru-rusetumei.png");
-		AddGameObject<Polygon2D>(2)->Init(200.0f, 175.0f + 30.0f, 490.0f, 70.0f, "asset\\texture\\tugitugitowaitekuru.png");
-		AddGameObject<Polygon2D>(2)->Init(200.0f, 175.0f + 70.0f + 60.0f, 630.0f, 70.0f, "asset\\texture\\tekigachuusinnno.png");
-		AddGameObject<Polygon2D>(2)->Init(200.0f, 175.0f + 140.0f + 90.0f, 770.0f, 70.0f, "asset\\texture\\yoriookuno.png");
+		AddGameObject<Polygon2D>(2)->Init((SCREEN_WIDTH / 2) - 200.0f, 50.0f, 400.0f, 125.0f, "asset\\texture\\text\\TitleText2-1.png");
+		AddGameObject<Polygon2D>(2)->Init(200.0f, 175.0f + 30.0f, 490.0f, 70.0f, "asset\\texture\\text\\TitleText2-2.png");
+		AddGameObject<Polygon2D>(2)->Init(200.0f, 175.0f + 70.0f + 60.0f, 630.0f, 70.0f, "asset\\texture\\text\\TitleText2-3.png");
+		AddGameObject<Polygon2D>(2)->Init(200.0f, 175.0f + 140.0f + 90.0f, 770.0f, 70.0f, "asset\\texture\\text\\TitleText2-4.png");
+
+		AddGameObject<EnterText>(2)->Init(SCREEN_WIDTH - 400, SCREEN_HEIGHT - 70, 400, 70, true);
 	}
 	else if (m_SceneCount == 3)
 	{
 		AddGameObject<Polygon2D>(2)->Init(0.0f, 0.0f, SCREEN_WIDTH, SCREEN_HEIGHT, "asset\\texture\\titleBG.png");
 
-		AddGameObject<EnterText>(2)->Init(SCREEN_WIDTH - 400, SCREEN_HEIGHT - 70, 400, 70, true);
-
 		AddGameObject<Polygon2D>(2)->Init(100.0f, 0.0f, SCREEN_WIDTH - 200.0f, SCREEN_HEIGHT - 50, "asset\\texture\\kanban02.png");
 		AddGameObject<Polygon2D>(2)->Init((SCREEN_WIDTH / 2) - 250.0f, 25.0f, 500.0f, 150.0f, "asset\\texture\\kanban03.png");
-		AddGameObject<Polygon2D>(2)->Init((SCREEN_WIDTH / 2) - 200.0f, 50.0f, 400.0f, 125.0f, "asset\\texture\\reberunituite.png");
-		AddGameObject<Polygon2D>(2)->Init(200.0f, 175.0f + 30.0f, 690.0f, 70.0f, "asset\\texture\\tekiwotaositatokini.png");
-		AddGameObject<Polygon2D>(2)->Init(200.0f, 175.0f + 70.0f + 60.0f, 710.0f, 70.0f, "asset\\texture\\pureiya-noreberu.png");
-		AddGameObject<Polygon2D>(2)->Init(200.0f, 175.0f + 140.0f + 90.0f, 790.0f, 70.0f, "asset\\texture\\reberugaagaruto.png");
-		AddGameObject<Polygon2D>(2)->Init(200.0f, 175.0f + 210.0f + 120.0f, 570.0f, 70.0f, "asset\\texture\\tekimoreberuni.png");
+		AddGameObject<Polygon2D>(2)->Init((SCREEN_WIDTH / 2) - 200.0f, 50.0f, 400.0f, 125.0f, "asset\\texture\\text\\TitleText3-1.png");
+		AddGameObject<Polygon2D>(2)->Init(200.0f, 175.0f + 30.0f, 690.0f, 70.0f, "asset\\texture\\text\\TitleText3-2.png");
+		AddGameObject<Polygon2D>(2)->Init(200.0f, 175.0f + 70.0f + 60.0f, 710.0f, 70.0f, "asset\\texture\\text\\TitleText3-3.png");
+		AddGameObject<Polygon2D>(2)->Init(200.0f, 175.0f + 140.0f + 90.0f, 790.0f, 70.0f, "asset\\texture\\text\\TitleText3-4.png");
+		AddGameObject<Polygon2D>(2)->Init(200.0f, 175.0f + 210.0f + 120.0f, 570.0f, 70.0f, "asset\\texture\\text\\TitleText3-5.png");
+
+		AddGameObject<EnterText>(2)->Init(SCREEN_WIDTH - 400, SCREEN_HEIGHT - 70, 400, 70, true);
 	}
 }

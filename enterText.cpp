@@ -41,7 +41,7 @@ void EnterText::Init(float x, float y, float Width, float Height, bool scaleswit
 
 
 	//テクスチャ読み込み
-	m_Texture = Texture::Load("asset\\texture\\enterki-de.png");
+	m_Texture = Texture::Load("asset\\texture\\text\\EnterText.png");
 
 	//シェーダー読み込み
 	Renderer::CreateVertexShader(&m_VertexShader, &m_VertexLayout,
